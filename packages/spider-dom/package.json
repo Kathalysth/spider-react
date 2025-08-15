@@ -1,0 +1,47 @@
+{
+  "name": "spider-dom",
+  "version": "0.1.0",
+  "description": "DOM renderer for Spider React implementation",
+  "main": "dist/spider-dom.cjs.js",
+  "module": "dist/spider-dom.esm.js",
+  "types": "dist/spider-dom.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/spider-dom.d.ts",
+      "import": "./dist/spider-dom.esm.js",
+      "require": "./dist/spider-dom.cjs.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "spider": "0.1.0"
+  },
+  "devDependencies": {
+    "spider": "^0.1.0",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kathalysth/spider-react.git",
+    "directory": "packages/spider-dom"
+  },
+  "keywords": [
+    "react",
+    "dom",
+    "renderer",
+    "browser",
+    "ui"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

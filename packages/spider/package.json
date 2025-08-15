@@ -1,0 +1,47 @@
+{
+  "name": "spider",
+  "version": "0.1.0",
+  "description": "A production-grade React implementation built from scratch",
+  "main": "dist/spider.cjs.js",
+  "module": "dist/spider.esm.js",
+  "types": "dist/spider.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/spider.d.ts",
+      "import": "./dist/spider.esm.js",
+      "require": "./dist/spider.cjs.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kathalysth/spider-react.git",
+    "directory": "packages/spider"
+  },
+  "keywords": [
+    "react",
+    "fiber",
+    "hooks",
+    "concurrent",
+    "jsx",
+    "frontend",
+    "ui",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
