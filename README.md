@@ -9,7 +9,7 @@ A production-grade React implementation built from scratch with modern features 
 
 ## 🎯 Project Overview
 
-Spider is a complete React library implementation following FAANG-level coding standards. This project aims to provide:
+Spider is a complete React library implementation following best practice coding standards. This project aims to provide:
 
 - **Fiber Architecture**: Modern reconciliation with time-slicing
 - **Concurrent Features**: useTransition, Suspense, and priority-based rendering
