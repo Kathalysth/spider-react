@@ -95,7 +95,7 @@ npm 8.0.0 or higher
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spider-react.git
+git clone https://github.com/kathalysth/spider-react.git
 cd spider-react
 
 # Install dependencies
@@ -116,6 +116,7 @@ npm run dev
 
 ### Project Structure
 
+```bash
 spider-react/
 ├── packages/
 │ ├── spider/ # Core React implementation
@@ -123,6 +124,7 @@ spider-react/
 ├── examples/ # Example applications
 ├── docs/ # Documentation
 └── tools/ # Build and development tools
+```
 
 ## 🧪 Testing
 
@@ -141,9 +143,9 @@ npm run test:coverage
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our Contributing Guide for details.
+We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTNG.md) for details.
 
-### Development Process
+## Development Process
 
 1. Fork the repository
 2. Create a feature branch (git checkout -b feature/amazing-feature)
@@ -155,7 +157,7 @@ We welcome contributions! Please see our Contributing Guide for details.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT [License](./LICENSE) - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -165,6 +167,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📊 Project Status
 
-This is an active development project. See our roadmap for current progress and upcoming features.
+This is an active development project. See our [roadmap](./ROADMAP.md) for current progress and upcoming features.
 
 **Note**: This is an educational and experimental implementation. For production applications, please use the official React library.
